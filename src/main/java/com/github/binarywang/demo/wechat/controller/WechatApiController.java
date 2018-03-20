@@ -64,4 +64,8 @@ public class WechatApiController {
             throw new RuntimeException(e);
         }
     }
+    @RequestMapping("/hello")
+    public String hello(){
+        return "Hello World";
+    }
 }
